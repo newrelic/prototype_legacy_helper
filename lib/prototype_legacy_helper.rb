@@ -1,4 +1,4 @@
-module PrototypeHelper
+module ActionView::Helpers::PrototypeHelper
   # Creates a button with an onclick event which calls a remote action
   # via XMLHttpRequest
   # The options for specifying the target with :url
@@ -428,5 +428,3 @@ module PrototypeHelper
       javascript_tag(javascript)
     end
 end
-
-ActionController::Base.helper PrototypeHelper
